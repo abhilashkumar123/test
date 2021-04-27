@@ -9,7 +9,7 @@ def main():
 		pyautogui.moveTo(x, y, duration = 10)
 		pyautogui.click(x, y) 
 		pyautogui.moveTo(x-10, y-10, duration = 10)
-		pyautogui.click(x-10, y-9) 
+		pyautogui.click(x-10, y-100) 
 		i=i+1
 
 if __name__ == "__main__": main()
